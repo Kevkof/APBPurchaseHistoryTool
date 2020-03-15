@@ -11,6 +11,7 @@ If you have a functional Windows system you shouldn't need anything.
 ## What does it look like
 
 It looks like this:
+
 ![Program image](https://i.imgur.com/9Rch4iy.png)
 
 ## Possible issues
