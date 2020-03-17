@@ -14,6 +14,10 @@ It looks like this:
 
 ![Program image](https://i.imgur.com/9Rch4iy.png)
 
+## Download
+
+You can pick it up from the [releases](https://github.com/Kevkof/APBPurchaseHistoryTool/releases/tag/1.0.0) here on GitHub or using the mirror on [my server](https://dl.kevkof.com/APBPurchaseHistoryTool.exe)
+
 ## Possible issues
 
 - You might need to unblock the files, as it's downloaded from the internet.
