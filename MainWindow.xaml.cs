@@ -44,7 +44,31 @@ namespace APBPurchaseHistoryTool
                 int totalG1C = 0;
                 double totalMoney = 0;
                 string[] temp;
-                temp = HistoryBox.Text.Trim().Split(new string[] { "\r\n" }, StringSplitOptions.None);
+                if (HistoryBox.Text.Trim().Contains("\r\n"))
+                {
+                    temp = HistoryBox.Text.Trim().Split(new string[] { "\r\n" }, StringSplitOptions.None);
+                }
+                else
+                {
+                    if (HistoryBox.Text.Trim().Contains("\r"))
+                    {
+                        temp = HistoryBox.Text.Trim().Split(new string[] { "\r" }, StringSplitOptions.None);
+                    }
+                    else
+                    {
+                        if (HistoryBox.Text.Trim().Contains("\n"))
+                        {
+                            temp = HistoryBox.Text.Trim().Split(new string[] { "\n" }, StringSplitOptions.None);
+                        }
+                        else
+                        {
+                            temp = null;
+                        }
+
+                    }
+
+                }
+
                 foreach (string line in temp)
                 {
                     string[] temp2 = line.Split(new string[] { "\t" }, StringSplitOptions.None);
