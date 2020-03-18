@@ -20,8 +20,9 @@ namespace APBPurchaseHistoryTool
             else
             {
                 v2 = v2.Replace("$", "");
-                double temp = float.Parse(v2);
-                temp *= 0.8;
+                v2 = v2.Replace(".", ",");
+                double temp = float.Parse(v2); 
+                temp *= 80;
                 Price = Convert.ToInt32(temp);
             }
             Date = DateTime.ParseExact(v3, "yyyy-MM-dd HH:mm", System.Globalization.CultureInfo.InvariantCulture); ;

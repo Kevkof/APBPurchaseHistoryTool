@@ -16,7 +16,7 @@ It looks like this:
 
 ## Download
 
-You can pick it up from the [releases](https://github.com/Kevkof/APBPurchaseHistoryTool/releases/tag/1.0.1) here on GitHub or using the mirror on [my server](https://dl.kevkof.com/APBPurchaseHistoryTool.exe)
+You can pick it up from the [releases](https://github.com/Kevkof/APBPurchaseHistoryTool/releases/tag/1.0.2) here on GitHub or using the mirror on [my server](https://dl.kevkof.com/APBPurchaseHistoryTool.exe)
 
 ## Possible issues
 
