@@ -1,5 +1,7 @@
 # APB Purchase History Tool
 
+Web version now available at <https://hist.kevkof.com>
+
 ## Why I made this
 
 I used to use a .jar file to parse through the purchase history, but that hasn't been updated in years so I wanted to have an up to date version which includes the G1C/$ changes from 2018.
